@@ -1,0 +1,31 @@
+# Personal planning files (kept local, not published)
+CLAUDE.md
+LineTrack .NET Production-Line Tracker (Project Spec).md
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+*.binlog
+
+# Node / Vue
+node_modules/
+dist/
+coverage/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.local.json
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+Thumbs.db
+.DS_Store
