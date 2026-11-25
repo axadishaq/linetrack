@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Core: entities, enums, interfaces and business rules (ScanService, MetricsService).
+    It references NO other project and no database or web packages, so the rules
+    can be unit-tested on their own. Shared settings come from Directory.Build.props.
+  -->
+
+</Project>

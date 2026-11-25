@@ -1,0 +1,6 @@
+# Send these requests from VS Code (REST Client) or Visual Studio. Like a Postman collection in a file.
+@LineTrack.Api_HostAddress = http://localhost:5266
+
+GET {{LineTrack.Api_HostAddress}}/health
+
+###

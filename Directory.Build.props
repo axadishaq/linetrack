@@ -1,0 +1,21 @@
+<Project>
+  <!--
+    MSBuild automatically imports this file into every project in this folder and below.
+    Shared settings live here once instead of being repeated in each .csproj (DRY).
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+
+    <!-- Compiler tracks which references may be null (like TypeScript strictNullChecks). -->
+    <Nullable>enable</Nullable>
+
+    <!-- Common namespaces (System, System.Linq, ...) are imported automatically. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Any warning fails the build, so problems can't pile up unnoticed. -->
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <!-- Use the newest built-in .NET code analyzers. -->
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+</Project>

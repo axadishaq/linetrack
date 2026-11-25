@@ -167,7 +167,17 @@ Core depends on nothing. Infrastructure and Api depend on Core, never the other 
 
 ## Running it
 
-Setup steps will be added here as each part works. The goal is one command, `docker compose up`, to start the database, API, simulator and dashboard with sample data.
+Setup steps are added here as each part works. The goal is one command, `docker compose up`, to start the database, API, simulator and dashboard with sample data.
+
+**What runs today:** the API skeleton with a health check (no database yet).
+
+Requires the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
+
+```bash
+dotnet build
+dotnet run --project src/LineTrack.Api --launch-profile http
+# then open http://localhost:5266/health  ->  Healthy
+```
 
 ## How I use AI
 
