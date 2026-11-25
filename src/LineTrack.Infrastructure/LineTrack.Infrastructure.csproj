@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Infrastructure: EF Core DbContext, migrations, repositories and SQL queries. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\LineTrack.Core\LineTrack.Core.csproj" />
+  </ItemGroup>
+
+</Project>
